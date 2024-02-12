@@ -13,7 +13,7 @@ const greeter=await Greeter.deploy("Hello chuks");
 
 
 
-await greeter.deployed()
+await greeter.deployed();
 
 
 
