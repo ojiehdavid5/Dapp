@@ -5,7 +5,8 @@ import Greeter from "./artifacts/contracts/Greeter.sol/Greeter.json";
 import './App.css';
 const ethers = require("ethers");
 
-const greeterAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+// const greeterAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+const greeterAddress = "0xdD2FD4581271e230360230F9337D5c0430Bf44C0 ";
 
 function App() {
   const [message, setMessage] = useState("");
