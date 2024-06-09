@@ -7,9 +7,7 @@ import "hardhat/console.sol";
 
 contract MyContract{
 
-     constructor(){
-        owner=msg.sender;
-    }
+   
 
     mapping(uint=>string) public names;
     mapping(uint=>Book) public books;
@@ -42,11 +40,6 @@ books[_id]=Book(_title,_author);
      }
 
 
-     function isOwner() public   view  returns(bool){
-
-        return(msg.sender == owner);
-
-     }
-
+     
 
 }
