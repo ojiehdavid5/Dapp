@@ -3,10 +3,18 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
+
+
+  
  
 
 
  contract MyContract{
+
+    constructor(){
+        owner=msg.sender;
+    }
+
 
     uint[] public numbers=[1,2,3,4,5,6,7,8,9,10];
 
@@ -35,4 +43,12 @@ if(_number % 2 == 0){
     return false;
 }
     }
+
+function isOwner() public   view  returns(bool){
+
+        return(msg.sender == owner);
+
+     }
+
+
  }
