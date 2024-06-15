@@ -5,11 +5,12 @@ import "hardhat/console.sol";
 
 
 
-  
  
 
 
  contract MyContract{
+      address payable owner=0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 ;
+
 
     constructor(){
         owner=msg.sender;
@@ -44,11 +45,11 @@ if(_number % 2 == 0){
 }
     }
 
-function isOwner() public   view  returns(bool){
+// function isOwner() public   view  returns(bool){
 
-        return(msg.sender == owner);
+    //     return(msg.sender == owner);
 
-     }
+    //  }
 
 
  }
