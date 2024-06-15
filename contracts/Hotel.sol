@@ -10,14 +10,22 @@ contract HotelRooom{
     //Events
     //Enums
 //
+enum Statuses{Vacant,Occupied}
 
-    address payable public owner=0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199;
+
+address payable public owner;
+
+
+constructor(){
+    owner=msg.sender;
+}
 
 
     
 
 
-    function() public views returns(uint){
+    function books() {
+        owner.transfer(msg.value);
 
 
 
