@@ -36,19 +36,21 @@ function getSecret()  public view  returns(string memory){
 
 contract MyContract is Ownable{
 
+    string secret;
+
 
     
 
 
 
-    constructor  (string memory _secret) {
+    constructor  (string memory _secret) payable {
         SecretVault _secretVault= new SecretVault(_secret);
            super;
 
 }
 
 
-function getSecret()  public view onlyOwner returns(string memory){
+function getSecret()  public view onlyOwner returns(string memory ){
 
     return secret;
 

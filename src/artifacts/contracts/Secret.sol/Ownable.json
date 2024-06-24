@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Ownable",
+  "sourceName": "contracts/Secret.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122072dfc9cd8982760649500d2ce4ee10b6e5f60f2e15fc62e06f150ac48b37bb8e64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122072dfc9cd8982760649500d2ce4ee10b6e5f60f2e15fc62e06f150ac48b37bb8e64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
