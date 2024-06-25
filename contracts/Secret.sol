@@ -44,7 +44,12 @@ contract MyContract is Ownable{
 
 
     constructor  (string memory _secret) payable {
+        
         SecretVault _secretVault= new SecretVault(_secret);
+
+
+
+
 
 
 
