@@ -38,6 +38,9 @@ contract MyContract is Ownable{
 
     string secret;
 
+
+    
+
     
 
 
