@@ -38,6 +38,8 @@ contract MyContract is Ownable{
 
     string secret;
 
+    
+
 
     
 
@@ -47,7 +49,7 @@ contract MyContract is Ownable{
         
         SecretVault _secretVault= new SecretVault(_secret);
 
-        
+
 
         
 
