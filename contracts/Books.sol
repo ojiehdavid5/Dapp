@@ -25,6 +25,7 @@ contract MyContract{
         names[2]='sam';
         names[3]='tobi';
         names[4]='naomi';
+        
     }
 
    
