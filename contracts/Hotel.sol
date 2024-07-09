@@ -13,6 +13,11 @@ contract HotelRooom{
 enum Statuses{Vacant,Occupied}
 Statuses public currentStatus;
 
+
+
+
+
+
 event Occupy(address _occupant, uint _value);
 
 
