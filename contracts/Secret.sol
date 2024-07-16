@@ -8,6 +8,8 @@ import "hardhat/console.sol";
 contract Ownable {
     address owner;
 
+    
+
     modifier onlyOwner() {
         require(msg.sender == owner, "must be the owner");
 
