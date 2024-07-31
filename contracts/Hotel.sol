@@ -59,6 +59,13 @@ _;
         require (true);
 
 
+
+
+
+
+
+
+
         emit Occupy(msg.sender, msg.value);
         
 
