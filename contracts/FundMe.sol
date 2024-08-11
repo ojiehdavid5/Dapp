@@ -6,8 +6,6 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 import "./PriceConverter.sol";
 
 contract FundMe {
-
-
     using PriceConverter for uint256;
 
     uint256 public constant  minimumUsd = 50 * 1e18;
@@ -51,5 +49,16 @@ contract FundMe {
         _;
 
     }
+    //what happens when some send eth on this contract without calling the fund function
+//receive();
+//callback();
 
+receive() external payable {
+    fund();
+ }
+
+ fallback() external payable {
+    fund();
+  }
 }
+
