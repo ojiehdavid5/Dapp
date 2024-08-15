@@ -18,8 +18,6 @@ contract FundMe {
         i_owner=msg.sender;
 
 
-
-
     }
 
     function fund() public payable {
