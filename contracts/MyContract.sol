@@ -8,15 +8,15 @@ import "hardhat/console.sol";
  
 
 
- contract MyContract{
-      address payable owner=0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 ;
+//  contract MyContract{
+//       address payable owner=0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 ;
 
 
       
 
 
-    constructor(){
-        owner=msg.sender;
+//     constructor(){
+//         owner=msg.sender;
 
 
 
@@ -25,38 +25,38 @@ import "hardhat/console.sol";
 
 
         
-    }
+//     }
 
 
-    uint[] public numbers=[1,2,3,4,5,6,7,8,9,10];
+//     uint[] public numbers=[1,2,3,4,5,6,7,8,9,10];
 
 
-    function countEvenNumbers()public view returns(uint){
+//     function countEvenNumbers()public view returns(uint){
 
-        uint count=0;
-        for(uint i=0; i<numbers.length; i++){
-            if(isEvenNumber(numbers[i])){
-                count++;
+//         uint count=0;
+//         for(uint i=0; i<numbers.length; i++){
+//             if(isEvenNumber(numbers[i])){
+//                 count++;
             
-        }
-    }
+//         }
+//     }
 
-    return count;
+//     return count;
 
-    }
+//     }
 
     
 
-    function isEvenNumber(uint _number)public view returns(bool){
+//     function isEvenNumber(uint _number)public view returns(bool){
 
 
-if(_number % 2 == 0){
+// if(_number % 2 == 0){
 
-    return true;
-}else{
-    return false;
-}
-    }
+//     return true;
+// }else{
+//     return false;
+// }
+//     }
 
 // function isOwner() public   view  returns(bool){
 
