@@ -11,6 +11,12 @@ contract HotelRooom{
     //Enums
 //
 enum Statuses{Vacant,Occupied}
+
+
+
+
+
+
 Statuses public currentStatus;
 
 
@@ -57,6 +63,13 @@ _;
         (bool sent,bytes memory data)=owner.call{value:msg.value}("");
 
         require (true);
+
+
+
+
+
+
+
 
 
         emit Occupy(msg.sender, msg.value);

@@ -34,8 +34,13 @@ contract MyContract{
 
 books[_id]=Book(_title,_author);
 
+
+
+
+
     }
      function addMyBooks (uint _id,string memory _title, string memory _author) public{
+
 
         myBooks[msg.sender][_id]=Book(_title,_author);
      }
