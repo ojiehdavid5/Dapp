@@ -7,6 +7,7 @@ import "hardhat/console.sol";
 
 contract Ownable {
     address owner;
+    
 
     
 
