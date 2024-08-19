@@ -17,6 +17,8 @@ contract MyContract{
     struct Book{
         string title;
         string author;
+
+
     }
 
     constructor(){
