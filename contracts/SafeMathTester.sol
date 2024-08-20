@@ -1,12 +1,12 @@
- //SPDX-License-Identifier: MIT
+//  //SPDX-License-Identifier: MIT
 
-// pragma solidity >=0.7.0 <0.9.0;
-pragma solidity ^0.8.0;
+// // pragma solidity >=0.7.0 <0.9.0;
+// pragma solidity ^0.8.0;
 
-contract SafeMathTester{
-    uint8 public bigNumber=255;
-    function add() public{
-        bigNumber=bigNumber+1;
+// contract SafeMathTester{
+//     uint8 public bigNumber=255;
+//     function add() public{
+//         bigNumber=bigNumber+1;
 
-    }
-}
+//     }
+// }

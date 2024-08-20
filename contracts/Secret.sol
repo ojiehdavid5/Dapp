@@ -1,47 +1,47 @@
-//SPDX-License-Identifier: Unlicense
+// //SPDX-License-Identifier: Unlicense
 
-pragma solidity ^0.8.9;
+// pragma solidity ^0.8.9;
 
-// Uncomment this line to use console.log
-import "hardhat/console.sol";
+// // Uncomment this line to use console.log
+// import "hardhat/console.sol";
 
-contract Ownable {
-    address owner;
+// contract Ownable {
+//     address owner;
     
 
     
 
-    modifier onlyOwner() {
-        require(msg.sender == owner, "must be the owner");
+//     modifier onlyOwner() {
+//         require(msg.sender == owner, "must be the owner");
 
-        _;
-    }
-}
+//         _;
+//     }
+// }
 
-contract SecretVault {
-    string secret;
-    constructor(string memory _secret) {
+// contract SecretVault {
+//     string secret;
+//     constructor(string memory _secret) {
 
         
-        secret = _secret;
-    }
+//         secret = _secret;
+//     }
 
-    function getSecret() public view returns (string memory) {
+//     function getSecret() public view returns (string memory) {
         
-        return secret;
-    }
-}
-contract MyContract is Ownable {
+//         return secret;
+//     }
+// }
+// contract MyContract is Ownable {
 
-    address secretVault;
-    constructor(string memory _secret) payable {
-        SecretVault _secretVault = new SecretVault(_secret);
-        secretVault=address(_secretVault);
+//     address secretVault;
+//     constructor(string memory _secret) payable {
+//         SecretVault _secretVault = new SecretVault(_secret);
+//         secretVault=address(_secretVault);
 
-        super;
-    }
+//         super;
+//     }
 
-    function getSecret() public view onlyOwner returns (string memory) {
-        return SecretVault(secretVault).getSecret();
-    }
-}
+//     function getSecret() public view onlyOwner returns (string memory) {
+//         return SecretVault(secretVault).getSecret();
+//     }
+// }
