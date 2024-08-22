@@ -6,7 +6,7 @@ require("dotenv").config();
 async function main(){
   const simpleStorageFactory= await ethers.getContractFactory("SimpleStorage");
 
-  console.log("deploing contract ....");
+  console.log("deploying contract ....");
 
   const simpleStorage=  await simpleStorageFactory.deploy({gasPrice:10000000000});
   console.log(simpleStorage.target);
