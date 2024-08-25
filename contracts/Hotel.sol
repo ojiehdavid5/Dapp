@@ -24,6 +24,7 @@
 
 
 
+
 // event Occupy(address _occupant, uint _value);
 
 
