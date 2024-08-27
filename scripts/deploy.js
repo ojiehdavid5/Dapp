@@ -1,5 +1,6 @@
 const {ethers,run}= require("hardhat");
 require("dotenv").config();
+require('../tasks/block-number');
 
 
 

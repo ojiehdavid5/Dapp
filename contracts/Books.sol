@@ -9,43 +9,25 @@
 
    
 
-<<<<<<< HEAD
-//     mapping(uint=>string) public names;
-//     mapping(uint=>Book) public books;
-//     mapping(address=>mapping(uint=>Book)) public myBooks;
+
+    // mapping(uint=>string) public names;
+    // mapping(uint=>Book) public books;
+    // mapping(address=>mapping(uint=>Book)) public myBooks;
 
 
-//     struct Book{
-//         string title;
-//         string author;
-//     }
-// // 
-//     constructor(){
-//         names[0]='chuks';
-//         names[1]='davies';
-//         names[2]='sam';
-//         names[3]='tobi';
-//         names[4]='naomi';
-=======
-    mapping(uint=>string) public names;
-    mapping(uint=>Book) public books;
-    mapping(address=>mapping(uint=>Book)) public myBooks;
+    // struct Book{
+    //     string title;
+    //     string author;
 
 
-    struct Book{
-        string title;
-        string author;
+    // }
 
-
-    }
-
-    constructor(){
-        names[0]='chuks';
-        names[1]='davies';
-        names[2]='sam';
-        names[3]='tobi';
-        names[4]='naomi';
->>>>>>> b5a5ad9c01e64697925ff2e35733e58c51cb07da
+    // constructor(){
+    //     names[0]='chuks';
+    //     names[1]='davies';
+    //     names[2]='sam';
+    //     names[3]='tobi';
+    //     names[4]='naomi'
         
 //     }
 

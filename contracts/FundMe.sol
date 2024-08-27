@@ -7,24 +7,22 @@
 
 // contract FundMe {
 //     using PriceConverter for uint256;
-
-<<<<<<< HEAD
 //     uint256 public constant  minimumUsd = 50 * 1e18;
 //     address[] public funders;
 //     mapping(address => uint256) public AddressToAmountFunded;
 //         address  public immutable i_owner;
 //         error notOwner();
-=======
 
 
 
 
-    uint256 public constant  minimumUsd = 50 * 1e18;
-    address[] public funders;
-    mapping(address => uint256) public AddressToAmountFunded;
-        address  public immutable i_owner;
-        error notOwner();
->>>>>>> b5a5ad9c01e64697925ff2e35733e58c51cb07da
+
+//     uint256 public constant  minimumUsd = 50 * 1e18;
+//     address[] public funders;
+//     mapping(address => uint256) public AddressToAmountFunded;
+//         address  public immutable i_owner;
+//         error notOwner();
+// >>>>>>> b5a5ad9c01e64697925ff2e35733e58c51cb07da
 
 //      constructor(){
 //         i_owner=msg.sender;
