@@ -3,6 +3,7 @@ require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 require('hardhat-gas-reporter');
 require('solidity-coverage');
+require('hardhat-deploy');
 const JSON_RPC=process.env.JSON_RPC;
 const PRIVATE_KEY=process.env.PRIVATE_KEY;
 const API_KEY=process.env.API_KEY;

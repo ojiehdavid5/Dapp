@@ -8,6 +8,7 @@ import "./PriceConverter.sol";
 contract FundMe {
     using PriceConverter for uint256;
     uint256 public constant  minimumUsd = 50 * 1e18;
+    AggregatorV3Interface  public priceFeed;
     address[] public funders;
     mapping(address => uint256) public AddressToAmountFunded;
         address  public immutable i_owner;
@@ -17,15 +18,11 @@ contract FundMe {
 
 
 
-    uint256 public constant  minimumUsd = 50 * 1e18;
-    address[] public funders;
-    mapping(address => uint256) public AddressToAmountFunded;
-        address  public immutable i_owner;
-        error notOwner();
->>>>>>> b5a5ad9c01e64697925ff2e35733e58c51cb07da
-
-     constructor(){
+   
+     constructor(address priceFeedAddress){
         i_owner=msg.sender;
+
+        priceFeed= AggregatorV3Interface(priceFeedAddress);
 
 
 
