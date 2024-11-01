@@ -9,6 +9,9 @@
 //     //Visibility
 //     //Events
 //     //Enums
+
+
+
 // //
 // enum Statuses{Vacant,Occupied}
 
