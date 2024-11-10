@@ -11,6 +11,10 @@ contract HotelRooom {
     //Events
     //Enums
     //
+
+
+
+
     enum Statuses {
         Vacant,
         Occupied
