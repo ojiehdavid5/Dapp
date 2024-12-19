@@ -14,6 +14,9 @@ contract MyContract{
 
 
 
+
+
+
     mapping(uint=>Book) public books;
     mapping(address=>mapping(uint=>Book)) public myBooks;
 
