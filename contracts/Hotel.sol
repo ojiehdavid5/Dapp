@@ -18,6 +18,9 @@ contract HotelRooom {
     enum Statuses {
         Vacant,
         Occupied
+
+
+
     }
 
     Statuses public currentStatus;
