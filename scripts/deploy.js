@@ -12,6 +12,8 @@ async function main(){
   const simpleStorage=  await simpleStorageFactory.deploy({gasPrice:10000000000});
   console.log(simpleStorage.target);
 
+
+
   // if(network.config.chainId===4 && process.env.API_KEY){
   //   await simpleStorage.deploymentTransaction.wait(6);
   //    await verify(simpleStorage.runner.address,[])
