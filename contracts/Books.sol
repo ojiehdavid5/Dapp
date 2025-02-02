@@ -55,6 +55,8 @@ contract MyContract{
     function addBooks( uint _id, string memory _title, string memory _author) public{
 
 books[_id]=Book(_title,_author);
+
+
 }
      function addMyBooks (uint _id,string memory _title, string memory _author) public{
 
